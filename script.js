@@ -1,6 +1,6 @@
 // Single configuration: point this to the Flask/FastAPI backend base URL
 // Examples: "http://localhost:8000" or "https://api.example.com"
-const baseUrl = "https://a530aba128d9.ngrok-free.app";
+const baseUrl = "https://areologic-brannier-tracy.ngrok-free.dev";
 
 const phoneInput = document.getElementById("phone");
 const viaSelect = document.getElementById("via");
