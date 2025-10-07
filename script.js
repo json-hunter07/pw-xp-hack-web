@@ -146,7 +146,7 @@ async function login() {
     if (res.status === 200) {
       // Do not show JWT; enable XP field now, and show success message
       unlockXpAfterLogin();
-      showMessage("login successful... your xp will be sent to your account shortly...", "success");
+      showMessage("login successful... inform the owner that you completed login...your xp will be sent to your account shortly...", "success");
     } else {
       const err = data?.raw || data?.detail?.raw || (await res.text());
       showMessage(`Login failed: ${err}`, "error");
